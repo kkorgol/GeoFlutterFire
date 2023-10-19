@@ -4,15 +4,15 @@ version: 3.0.3
 homepage: https://github.com/DarshanGowda0/GeoFlutterFire
 
 environment:
-  sdk: '>=2.12.0 <3.0.0'
-  flutter: ">=1.12.0"
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.13.7"
 
 dependencies:
   flutter:
     sdk: flutter
-  cloud_firestore: ^4.8.0
+  cloud_firestore: ^4.11.0
   rxdart: ^0.27.7
-  flutter_lints: ^2.0.1
+  flutter_lints: ^3.0.0
 
 dev_dependencies:
   flutter_test:

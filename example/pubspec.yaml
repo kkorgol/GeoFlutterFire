@@ -3,7 +3,7 @@ description: Demonstrates how to use the geoflutterfire plugin.
 publish_to: "none"
 
 environment:
-  sdk: '>=2.12.0 <3.0.0'
+  sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
   flutter:
@@ -11,7 +11,7 @@ dependencies:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.5
+  cupertino_icons: ^1.0.6
 
 dev_dependencies:
   flutter_test:
@@ -20,8 +20,8 @@ dev_dependencies:
   geoflutterfire:
     path: ../
 
-  cloud_firestore: ^4.8.0
-  google_maps_flutter: ^2.2.6
+  cloud_firestore: ^4.11.0
+  google_maps_flutter: ^2.5.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://www.dartlang.org/tools/pub/pubspec
